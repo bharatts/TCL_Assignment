@@ -39,7 +39,7 @@ set sen_length [llength $str]
 
 puts "Total Word count in file: $wordcount"
 puts "Total characters in file: $charactercount"
-puts "Total sentence in file: $sentencecount"
+puts "Total sentence in file: $sen_length"
 puts "Average Word Length in file: [format "%.3f" [expr $charactercount/ double($wordcount)]]"
 puts "Average Sentence Length in file: [format "%.3f" [expr $wordcount/ double($sen_length)]]"
 
