@@ -13,7 +13,7 @@ Output
 *
 *
 *
-2. Accept a character and a number from the keyboard and print that many number of copies of that character. (Also write the command line argument version of this script)\n
+2. Accept a character and a number from the keyboard and print that many number of copies of that character. (Also write the command line argument version of this script). <br />
 Example Input
 Enter a character: F
 Enter a number: 4
@@ -22,7 +22,7 @@ F
 F
 F
 
-3. Accept a list of numbers from the keyboard, print the number and continue until the number is greater than 10.
+4. Accept a list of numbers from the keyboard, print the number and continue until the number is greater than 10.
 Example Input
 Enter a number: 5
 The number is 5
@@ -32,7 +32,7 @@ Enter a number: 7
 The number is 7
 Enter a number: 11
 
-4. Accept a list of numbers from the keyboard, print out that number of asterisks (*) on that line until the number entered is 0.
+5. Accept a list of numbers from the keyboard, print out that number of asterisks (*) on that line until the number entered is 0.
 Example Input
 Enter a number: 5
 *****
