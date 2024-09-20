@@ -1,7 +1,7 @@
 # TCL_Assignment
 
 
-`**### Section A**`
+`### Section A`
 
 1. Print 8 asterisks (*) down the page.
 Output
