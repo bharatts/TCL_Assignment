@@ -3,15 +3,15 @@
 puts "Enter the string below: "
 flush stdout
 set a [gets stdin]
-puts $a
+#puts $a
 
 
-puts [string length [lindex $a 0]]
+#puts [string length [lindex $a 0]]
 set count 0
-set temp 0
+#set temp 0
 
 while {$count < [llength $a]} {
-
+    set temp 0
     while {$temp < [expr [llength $a] - 1]} {
         if {[string length [lindex $a $temp]] > [string length [lindex $a [expr $temp + 1]]]} {
             set x [lindex $a $temp]
@@ -23,4 +23,4 @@ while {$count < [llength $a]} {
     incr count
 }
 
-puts $a
+puts "String in increasing order of their length: $a"
