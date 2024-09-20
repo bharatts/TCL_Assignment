@@ -1,7 +1,7 @@
 # TCL_Assignment
 
 
-**### Section A**
+### Section A
 
 1. Print 8 asterisks (*) down the page.
 Output
@@ -81,3 +81,6 @@ Example Input<br />
 Enter the numbers: 5 4 6 7 22 19 12 15 2 1<br />
 Average = 9.3<br />
 Those numbers below the average 5 4 6 7 2 1<br />
+
+
+### Section B
