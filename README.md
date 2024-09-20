@@ -91,36 +91,32 @@ Those numbers below the average 5 4 6 7 2 1<br />
 4. Write a script to sort a list of strings in increasing order of their length.
 5. Write a script, which asks for a line of text to be entered on the keyboard, and then displays that text in upper-case on screen.
 6. Modify the script to ask for 3 lines of text, and display them on one line with a | symbol between each input.
-7. Write a script which you can call like so:
-TCL myscript.tcl "Argument 1" "Argument 2" "Argument 3"
-The program should take as many command-line arguments as are available, and display them on screen.
+7. Write a script which you can call like so:<br />
+TCL myscript.tcl "Argument 1" "Argument 2" "Argument 3"<br />
+The program should take as many command-line arguments as are available, and display them on screen.<br />
 
-8. Create a text file containing the following 3 lines:
-This is line one
-This is line two
-This is line three
-Write a script, which reads the file, and displays all the lines of text. Modify it so that the whole file is output on one line with | characters between each input.
+8. Create a text file containing the following 3 lines:<br />
+This is line one<br />
+This is line two<br />
+This is line three<br />
+Write a script, which reads the file, and displays all the lines of text. Modify it so that the whole file is output on one line with | characters between each input.<br />
 
-9.Write a TCL script, which accepts inputs as command line arguments. The script should function as follows:
-•
-It should accept four parameters: filename, line number, word to be replaced and replacement word in the same order.
-•
-Based on the above, the utility must replace the first occurrence of specified word on the line number specified by the user by the replacement word.
-•
-If the line number passed is "0", the script shall perform a search and replace globally.
-•
-If “-h” or “—help” is encountered as the first argument, provide some help to the user
+9.Write a TCL script, which accepts inputs as command line arguments. The script should function as follows:<br />
++ It should accept four parameters: filename, line number, word to be replaced and replacement word in the same order.
++ Based on the above, the utility must replace the first occurrence of specified word on the line number specified by the user by the replacement word.
++ If the line number passed is "0", the script shall perform a search and replace globally.
++ If “-h” or “—help” is encountered as the first argument, provide some help to the user
 
-10. Write a TCL script to read a file and display all the lines immediately following a blank line.
-Example: Contents of a source file
-This is the first line
-This is the second line
-<blank line>
-This is the third line
-This is the fourth line
-<blank line>
-This is the fifth line
-:
-Output:
-This is the third line
-This is the fifth line
+10. Write a TCL script to read a file and display all the lines immediately following a blank line.<br />
+Example: Contents of a source file<br />
+This is the first line<br />
+This is the second line<br />
+<blank line><br />
+This is the third line<br />
+This is the fourth line<br />
+<blank line><br />
+This is the fifth line<br />
+:<br />
+Output:<br />
+This is the third line<br />
+This is the fifth line<br />
