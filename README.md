@@ -13,7 +13,7 @@ Output
 *
 *
 *
-2. Accept a character and a number from the keyboard and print that many number of copies of that character. (Also write the command line argument version of this script)
+2. Accept a character and a number from the keyboard and print that many number of copies of that character. (Also write the command line argument version of this script)\n
 Example Input
 Enter a character: F
 Enter a number: 4
