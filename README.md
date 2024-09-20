@@ -1,7 +1,7 @@
 # TCL_Assignment
 
 
-### Section A
+## Section A
 
 1. Print 8 asterisks (*) down the page.
 Output
@@ -83,4 +83,44 @@ Average = 9.3<br />
 Those numbers below the average 5 4 6 7 2 1<br />
 
 
-### Section B
+## Section B
+
+1. Write a TCL script to find and print the longest word in the text file.
+2. Write a TCL script that computes the average word length (in characters) and the average sentence length (in words) of a text file.
+3. Many programmers use variable names made up of several words. One convention is to write names entirely in lower-case letters, with underline characters separating words, as in a_long_variable_name. An alternative, which appears to be growing in popularity, uses mixed case, with each word beginning with an upper-case letter, except that the whole variable name always begins with a lower-case one (usually to distinguish variables from type names) as in aLongVariableName. Write a TCL script to convert variable names from the first form to the second. (Or, if you prefer, vice versa.)
+4. Write a script to sort a list of strings in increasing order of their length.
+5. Write a script, which asks for a line of text to be entered on the keyboard, and then displays that text in upper-case on screen.
+6. Modify the script to ask for 3 lines of text, and display them on one line with a | symbol between each input.
+7. Write a script which you can call like so:
+TCL myscript.tcl "Argument 1" "Argument 2" "Argument 3"
+The program should take as many command-line arguments as are available, and display them on screen.
+
+8. Create a text file containing the following 3 lines:
+This is line one
+This is line two
+This is line three
+Write a script, which reads the file, and displays all the lines of text. Modify it so that the whole file is output on one line with | characters between each input.
+
+9.Write a TCL script, which accepts inputs as command line arguments. The script should function as follows:
+•
+It should accept four parameters: filename, line number, word to be replaced and replacement word in the same order.
+•
+Based on the above, the utility must replace the first occurrence of specified word on the line number specified by the user by the replacement word.
+•
+If the line number passed is "0", the script shall perform a search and replace globally.
+•
+If “-h” or “—help” is encountered as the first argument, provide some help to the user
+
+10. Write a TCL script to read a file and display all the lines immediately following a blank line.
+Example: Contents of a source file
+This is the first line
+This is the second line
+<blank line>
+This is the third line
+This is the fourth line
+<blank line>
+This is the fifth line
+:
+Output:
+This is the third line
+This is the fifth line
