@@ -14,7 +14,7 @@ Output
 *
 *
 2. Accept a character and a number from the keyboard and print that many number of copies of that character. (Also write the command line argument version of this script). <br />
-Example Input
+Example Input <br />
 Enter a character: F
 Enter a number: 4
 F
